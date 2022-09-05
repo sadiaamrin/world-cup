@@ -126,6 +126,10 @@ h4 {
     margin-top: 0;
 }
 
+.gap {
+    margin-right: 5px;
+}
+
 .buttton-p {
     text-align: center;
     display: none;
@@ -166,4 +170,16 @@ hr {
 
 .footer p {
     color: white;
+}
+
+.filled {
+    color: #E8E8E8;
+    font-size: 30px;
+    margin-top: 60px;
+    margin-right: 10px;
+
+}
+
+.footer-icon {
+    text-align: center;
 }

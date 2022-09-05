@@ -146,3 +146,15 @@ hr {
 .footer p {
     color: white;
 }
+
+.filled {
+    color: #E8E8E8;
+    font-size: 30px;
+    margin-top: 60px;
+    margin-right: 10px;
+
+}
+
+.footer-icon {
+    text-align: center;
+}
