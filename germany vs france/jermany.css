@@ -21,10 +21,6 @@ body {
     color: aliceblue;
 }
 
-.banner-p {
-    color: white;
-}
-
 .banner-information {
     padding-left: 90px;
     padding-top: 30px;
@@ -33,6 +29,10 @@ body {
 .banner-information h1 {
     font-size: 45px;
     font-weight: 700;
+}
+
+.banner-p {
+    color: white;
 }
 
 .banner-img {
@@ -45,9 +45,9 @@ body {
     width: 187px;
     height: 56px;
     background: #DD0000;
-    border-radius: 5px;
     color: white;
     font-weight: 700;
+    border-radius: 5px;
 }
 
 /* main part */
@@ -101,17 +101,21 @@ body {
 .match {
     border: 1px solid #E8E8E8;
     border-radius: 5px;
+    padding: 10px;
+}
+
+.flag {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
 }
 
 .match-information {
-    padding: 15px;
+    text-align: center;
 }
 
-.time {
-    padding-right: 20px;
-    padding-left: 15px;
-    display: inline;
-}
+
+
 
 /* foooter style */
 footer {
@@ -122,6 +126,9 @@ footer {
 
 footer h1 {
     color: aliceblue;
+}
+
+footer h1 {
     text-align: center;
 }
 
