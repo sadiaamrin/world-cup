@@ -69,6 +69,8 @@ body {
     background-color: black;
     border-radius: 5px;
     padding: 30px;
+    /* min-width: 213px; */
+    /* min-height: 155px; */
 }
 
 .double-part a {
@@ -101,16 +103,42 @@ body {
 .match {
     border: 1px solid #E8E8E8;
     border-radius: 5px;
+
+}
+
+.match-img {
+    width: 100%;
+    padding-right: 0;
 }
 
 .match-information {
-    padding: 15px;
+    padding: 0 15px;
+}
+
+h4 {
+    margin-bottom: 0;
 }
 
 .time {
     padding-right: 20px;
     padding-left: 15px;
     display: inline;
+    margin-top: 0;
+}
+
+.buttton-p {
+    text-align: center;
+    display: none;
+}
+
+.viwe-all-btn {
+    color: white;
+    background-color: #DD0000;
+    font-weight: 700;
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: none;
+    justify-content: center;
 }
 
 /* foooter style */
