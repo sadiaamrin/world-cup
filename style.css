@@ -4,18 +4,24 @@ body {
 }
 
 /* bannner section-------- */
+header {
+    background-color: black;
+    border-radius: 30px;
+
+}
 
 .section-banner {
     margin: 20px 70px 0 70px;
     padding: 50px;
 }
 
+
 .banner-part {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background-color: black;
-    border-radius: 30px;
-    height: 495px;
+    /* background-color: black;
+    border-radius: 30px; */
+    /* height: 495px; */
 
 }
 
@@ -38,7 +44,7 @@ body {
 }
 
 .banner-img {
-    width: 77%;
+    width: 80%;
     padding-top: 20px;
     margin-top: 10px;
 }

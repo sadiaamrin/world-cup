@@ -3,6 +3,12 @@ body {
     margin: 0;
 }
 
+header {
+    background-color: black;
+    border-radius: 30px;
+
+}
+
 .section-banner {
     margin: 20px 70px 0 70px;
     padding: 50px;
@@ -11,9 +17,9 @@ body {
 .banner-part {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background-color: black;
-    border-radius: 30px;
-    height: 496px;
+    /* background-color: black; */
+    /* border-radius: 30px; */
+    /* height: 496px; */
 
 }
 
