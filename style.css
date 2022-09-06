@@ -15,7 +15,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
     background-color: black;
     border-radius: 30px;
-    height: 496px;
+    height: 495px;
 
 }
 
@@ -38,7 +38,7 @@ body {
 }
 
 .banner-img {
-    width: 80%;
+    width: 77%;
     padding-top: 20px;
     margin-top: 10px;
 }
