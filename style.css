@@ -50,6 +50,11 @@ body {
     font-weight: 700;
 }
 
+.banner-button:hover {
+    background: grey;
+    color: white;
+}
+
 /* main part */
 .main-part {
     padding: 50px 115px 50px 120px;

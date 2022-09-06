@@ -50,6 +50,11 @@ body {
     border-radius: 5px;
 }
 
+.banner-button:hover {
+    background: grey;
+    color: white;
+}
+
 /* main part */
 .main-part {
     padding: 50px 115px 50px 120px;
