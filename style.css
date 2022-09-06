@@ -328,7 +328,7 @@ hr {
     .banner-part {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        height: 350px;
+
     }
 
     .banner-information {
