@@ -3,6 +3,8 @@ body {
     margin: 0;
 }
 
+/* bannner section-------- */
+
 .section-banner {
     margin: 20px 70px 0 70px;
     padding: 50px;
@@ -50,12 +52,18 @@ body {
     font-weight: 700;
 }
 
+/* btn--hover style--- */
+
 .banner-button:hover {
     background: grey;
     color: white;
 }
 
-/* main part */
+/* end banner section-------------- */
+
+/* ------------------------
+main part------------------
+--------------------------- */
 .main-part {
     padding: 50px 115px 50px 120px;
 }
@@ -74,8 +82,6 @@ body {
     background-color: black;
     border-radius: 5px;
     padding: 30px;
-    /* min-width: 213px; */
-    /* min-height: 155px; */
 }
 
 .double-part a {
@@ -137,7 +143,7 @@ h4 {
 
 .buttton-p {
     text-align: center;
-    display: none;
+    visibility: hidden;
 }
 
 .viwe-all-btn {
@@ -150,7 +156,9 @@ h4 {
     justify-content: center;
 }
 
-/* foooter style */
+/* end main part------------------------------------------------- */
+
+/* foooter style--------------- */
 footer {
     margin: 0;
     background-color: black;
@@ -187,4 +195,227 @@ hr {
 
 .footer-icon {
     text-align: center;
+}
+
+/* responsive */
+/* for mobile */
+@media only screen and (max-device-width : 668px) {
+
+    header,
+    main {
+        margin: 15px;
+    }
+
+    header {
+        background-color: black;
+
+    }
+
+    .section-banner {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .banner-part {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .banner-information {
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+
+    .banner-information h1 {
+        font-size: 30px;
+    }
+
+    .banner-information p,
+    h1 {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    /* banner image---- */
+
+    .banner-img {
+        width: 55%;
+        padding-top: 0px;
+        margin-top: 0px;
+        margin-left: 80px;
+        text-align: center;
+
+    }
+
+    /* banner button---- */
+
+    .banner-button {
+        text-align: center;
+    }
+
+    /* end header part */
+    /* main part start----------------------------------- */
+    .main-part {
+        padding: 0;
+    }
+
+    .double-part {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .a-class {
+        background-color: white;
+
+    }
+
+    .double-part a {
+        text-decoration: none;
+        background-color: white;
+        color: black;
+        border: 1px solid rgb(189, 189, 189);
+        font-weight: 700;
+        border-radius: 5px;
+        padding: 10px;
+
+    }
+
+    .triple-part {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    /* footer style------------------------------ */
+
+    .footer {
+        display: block;
+        text-align: center;
+        padding: 0;
+    }
+
+    footer h1 {
+        font-size: xx-large;
+    }
+}
+
+/* responsive for tab */
+@media only screen and (min-device-width:669px) and (max-device-width:992px) {
+
+    header,
+    main {
+        margin: 15px;
+    }
+
+    header {
+        background-color: black;
+    }
+
+    .section-banner {
+        margin: 0px;
+        padding: 40px;
+
+    }
+
+    .section-banner h1 {
+        margin: 0;
+    }
+
+    .banner-part {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        height: 350px;
+    }
+
+    .banner-information {
+        padding-left: 0px;
+        padding-top: 0%;
+        margin: 0%;
+
+    }
+
+    .banner-information h1 {
+        font-size: 45px;
+    }
+
+    .banner-information p,
+    h1 {
+        font-size: 17px;
+
+    }
+
+    .banner-img {
+        width: 90%;
+        padding: 0;
+        padding-top: 37px;
+        margin-top: 0px;
+        margin: 0 40px;
+    }
+
+    .banner-button {
+        text-align: center;
+    }
+
+    /* header part end----------- */
+    .main-part {
+        padding: 0;
+    }
+
+    .double-part {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr)
+    }
+
+    .a-class {
+        background-color: white;
+    }
+
+    .double-part a {
+        text-decoration: none;
+        background-color: white;
+        color: black;
+        border: 1px solid rgb(189, 189, 189);
+        font-weight: 700;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    .a-class {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        text-align: center;
+        border-radius: 5px;
+        padding: 30px;
+    }
+
+    .triple-part {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .buttton-p {
+        visibility: visible;
+    }
+
+    /* main part end */
+    /* footer--------------------------- */
+
+    footer p {
+        display: grid;
+        grid-template-columns: repeat(4, 20px);
+    }
+
+    footer h1 {
+        font-size: xx-large;
+    }
 }
